@@ -1,0 +1,47 @@
+footer{
+    border: 2px outset rgb(160,0,0);
+    padding: .857em;
+    background-color: white;
+}
+
+ul{
+    list-style-image: linear-gradient(to left bottom, red, blue);
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  a:active{
+    color: blue;
+    text-decoration: underline;
+}
+
+img{
+    max-width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid blueviolet;
+}
+
+video{
+    border: 2px solid blueviolet;
+    padding: 5px;
+}
+
+audio{
+    border: 5px groove darkblue;
+}

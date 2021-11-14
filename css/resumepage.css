@@ -1,0 +1,49 @@
+footer{
+    border: 2px outset rgb(160,0,0);
+    padding: .857em;
+    background-color: white;
+}
+
+ul{
+    background-color: whitesmoke;
+    list-style-image: linear-gradient(to left bottom, red, blue);
+}
+
+h2{
+    background: whitesmoke;
+    color: navy;
+}
+
+h3{
+    background: whitesmoke;
+    color: maroon;
+}
+
+h4{
+    background: whitesmoke;
+    color: rgb(205, 205, 248);
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  a:active{
+    color: blue;
+    text-decoration: underline;
+}
+
+section{
+    background-color: whitesmoke;
+}

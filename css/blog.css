@@ -1,0 +1,84 @@
+footer{
+    border: 2px outset rgb(160,0,0);
+    padding: .857em;
+    background-color: white;
+}
+
+ul{
+    list-style-image: linear-gradient(to left bottom, red, blue);
+    background: whitesmoke;
+    padding: 20px;
+}
+
+p{
+    background: whitesmoke;
+}
+
+a:link{
+    color: red;
+    text-decoration: none;
+  }
+  
+  a:visited{
+    color: green;
+    text-decoration: none;
+  }
+  
+  a:hover{
+    color: hotpink;
+    text-decoration: underline;
+  }
+  
+  a:active{
+    color: blue;
+    text-decoration: underline;
+}
+
+video{
+    border: 2px solid blueviolet;
+    padding: 5px;
+    background: whitesmoke;
+}
+
+audio{
+    border: 5px groove darkblue;
+}
+
+* {
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type=text]:invalid {
+    border: red solid 1px;
+}
+
+.container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+.container > label {
+   text-align: center;
+}
+#comment{
+    background-color: rgb(209, 142, 248);
+}
+#addComments {
+    width: 20%;
+    padding: 5px;
+    background-color: rgb(49, 196, 147);
+    color: white;
+    align-self: center;
+}
+
+.wrapper > button {
+    margin-right: 5px;
+    padding: 5px;
+    background-color: rgb(49, 196, 147);
+    color: white;
+}
